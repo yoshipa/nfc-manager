@@ -106,7 +106,8 @@ ThemeData _themeData(Brightness brightness) {
       900: Color(0xFF255CFD),
     }),
     appBarTheme: AppBarTheme(
-      brightness: Brightness.dark,
+      // brightness is deprecated. So just commented out.
+      // brightness: Brightness.dark,
     ),
     inputDecorationTheme: InputDecorationTheme(
       isDense: true,
